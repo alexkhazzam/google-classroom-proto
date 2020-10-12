@@ -25,3 +25,35 @@ body {
   margin-left: 20% !important;
   background-color: rgba(255, 166, 0, 0.335) !important;
 }
+
+.change-topic-btn-1,
+.change-topic-btn-2,
+.change-topic-btn-3,
+.change-topic-btn-4 {
+  z-index: 100 !important;
+  position: absolute !important;
+  width: 110px !important;
+  height: 75px !important;
+}
+
+.change-topic-btn-1 {
+  margin-left: 71.5% !important;
+  top: 50.5% !important;
+}
+
+.change-topic-btn-2 {
+  margin-left: 71.5% !important;
+  top: 58.5%;
+}
+
+.change-topic-btn-3 {
+  margin-left: 71.5% !important;
+  top: 42.2%;
+}
+
+.change-topic-btn-4 {
+  margin-left: 67.5% !important;
+  top: 72%;
+  height: 45px !important;
+  width: 150px !important;
+}

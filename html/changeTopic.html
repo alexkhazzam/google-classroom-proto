@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Classroom Prototype</title>
-    <link rel="stylesheet" href="./css/index.css" />
+    <title>Change Topic</title>
+    <link rel="stylesheet" href="../css/changeTopic.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -28,35 +28,37 @@
     ></script>
   </head>
   <body>
-    <img src="./assets/images/classroom.png" class="google-classroom-image" />
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input
-        type="password"
-        class="form-control zoom-link"
-        id="exampleInputPassword1"
-        placeholder="Place zoom link here (will be accessible to students)"
-      />
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Choose which topic you'd like to change your post to
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a
+          class="dropdown-item"
+          href="/?postChanged=material/?add-more-settings"
+          target="_blank"
+          >Material</a
+        >
+        <a
+          class="dropdown-item"
+          href="/?postChanged=/assignment/?add-more-settings"
+          target="_blank"
+          >Assignment</a
+        >
+        <a
+          class="dropdown-item"
+          href="/?postChanged=/?announcement?add-more-settings"
+          target="_blank"
+          >Announcement</a
+        >
+      </div>
     </div>
-    <a href="./html/changeTopic.html">
-      <button type="btn" class="btn btn-danger change-topic-btn-1">
-        Change Topic
-      </button>
-    </a>
-    <a href="./html/changeTopic.html">
-      <button type="btn" class="btn btn-danger change-topic-btn-2">
-        Change Topic
-      </button>
-    </a>
-    <a href="./html/changeTopic.html">
-      <button type="btn" class="btn btn-danger change-topic-btn-3">
-        Change Topic
-      </button>
-    </a>
-    <a href="./html/changeTopic.html">
-      <button type="btn" class="btn btn-danger change-topic-btn-4">
-        Change Topic
-      </button>
-    </a>
   </body>
 </html>
