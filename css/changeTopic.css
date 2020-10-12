@@ -17,3 +17,12 @@ body {
   margin: auto !important;
   text-align: center !important;
 }
+
+.dropdown-2 {
+  margin-top: 5% !important;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: 35%;
+}
